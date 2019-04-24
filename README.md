@@ -4,6 +4,7 @@ Projekt za predmet Računalna Grafika. Napravljen korištenjem OpenGL 1.2, FreeG
 i GLM librarya.
 
 Opis rješenja:
+	
 	Program inicijalizira prozor velicine 800x600 u gornjem lijevom kutu.
 
 	Svjetlo je postavljeno pri samom vrhu, i malo ispred, te mu je boja
@@ -41,6 +42,7 @@ Opis rješenja:
 	Meni, fullscreen su dodani jer sam htio isprobat kako funkcioniraju.
 
 Tipke za upravljanje programom:
+	
 	←, →	Rotiranje kamere oko y osi
 	↑, ↓	Zumiranje kamere
 	SPACE	Pokretanje / Resetiranje animacije
@@ -50,9 +52,11 @@ Tipke za upravljanje programom:
 	Right Mouse Button	Mali meni koji sadrzi Pokretanje, Izlaz i Fullscreen
 
 Command line argumenti:
+	
 	Nisam implementirao argumente pri pokretanju.
 
 Reference:
+	
 	Laboratorijska Vjezba 6 (P1, P2)
 	https://www.opengl.org/resources/libraries/glut/spec3/spec3.html
 	http://www.glprogramming.com/red/
@@ -61,6 +65,7 @@ Reference:
 	http://programmingexamples.net/wiki/OpenGL		
 
 Testirano na:
+	
 	Xubuntu 18.04 x64
 	cmake 3.10.2
 	gcc (Ubuntu 7.3.0-16ubuntu3) 7.3.0
